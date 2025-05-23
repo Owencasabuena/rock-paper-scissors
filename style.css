@@ -22,7 +22,7 @@ button {
 }
 
 button img {
-    width: 30em;
+    width: 20em;
     height: auto;
     display: block;
     pointer-events: none;
@@ -45,7 +45,7 @@ h2 {
     display: none;
     align-items: center;
     justify-content: center;
-    padding: 1.5em 0em 1em 0em;
+    padding: 1.5em 0em 0.5em 0em;
 }
 
 .computer-pick {
@@ -53,8 +53,14 @@ h2 {
     -webkit-transform: scaleX(-1);
 }
 
-.computer-pick .player-pick {
-    width: 30em;
+.computer-pick img {
+    width: 20em;
+    height: auto;
+    display: block;
+}
+
+.player-pick img {
+    width: 20em;
     height: auto;
     display: block;
 }
@@ -73,5 +79,5 @@ h2 {
     padding: 1em;
     background: hsl(48, 100%, 67%);
     border-radius: 12px;
-    font-size: 1.5em;
+    font-size: 1em;
 }
